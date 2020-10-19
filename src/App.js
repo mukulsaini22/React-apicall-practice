@@ -23,7 +23,9 @@ function App() {
 
     </h1>
      <input   type='text' value={Id} onChange={e=>setId(e.target.value)} />   
-     <div className="title">{Comments.title}</div>
+     <div className="title">
+       <h1>{Comments.title}
+       </h1></div>
      
      </div>
   );
